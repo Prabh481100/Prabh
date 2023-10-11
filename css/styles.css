@@ -1,0 +1,58 @@
+body
+{
+    height : 100vh;
+    width : 100vw;
+    background-color: hsla(290, 90%, 49%, 0.922);
+    font: italic small-caps bold 12px/30px Georgia, serif;
+    padding: 2em;
+}
+h2
+{
+color: rgb(28, 237, 20);
+font-size: 2rem;
+}
+header
+{
+background-color: hsl(237, 100%, 51%);
+}
+main
+{
+    float:left;
+    width:65vw;
+    height:75vh;
+    background-color: hsl(173, 100%, 52%);
+}
+aside{
+    float:right;
+    width:25vw;
+    height:75vh;
+    background-color: hsl(246, 100%, 51%);
+}
+footer{
+    clear:both;
+    background-color: hsl(116, 100%, 48%);
+}
+.structural{
+    padding:10px;
+    margin:10px;
+    border:2px solid black;
+}
+#para1
+{
+    color:rgb(255, 0, 0)
+}
+#para2
+{
+    color:rgb(255, 85, 0)
+}
+p::first-letter
+{
+    color:rgba(0, 0, 0, 0.827);
+}
+a:hover{
+    color:#09c;
+}
+footer p
+{
+font-size: .75em;
+}
